@@ -1,0 +1,328 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Complete project proposal",
+      "description": "Write and review the Q2 project proposal",
+      "priority": "Priority.HIGH",
+      "deadline": "2025-06-17 14:44:35.916815",
+      "estimated_hours": 4.0,
+      "energy_level_required": 8,
+      "tags": [
+        "writing",
+        "project",
+        "deadline"
+      ],
+      "status": "TaskStatus.PENDING",
+      "created_at": "2025-06-15 14:44:35.916815",
+      "completed_at": null,
+      "actual_hours": null
+    },
+    {
+      "id": "task_2",
+      "title": "Review email inbox",
+      "description": "Go through and respond to emails",
+      "priority": "Priority.MEDIUM",
+      "deadline": null,
+      "estimated_hours": 0.5,
+      "energy_level_required": 3,
+      "tags": [
+        "email",
+        "communication"
+      ],
+      "status": "TaskStatus.PENDING",
+      "created_at": "2025-06-15 14:44:35.916815",
+      "completed_at": null,
+      "actual_hours": null
+    },
+    {
+      "id": "task_3",
+      "title": "Team meeting preparation",
+      "description": "Prepare agenda and materials for team meeting",
+      "priority": "Priority.MEDIUM",
+      "deadline": "2025-06-16 14:44:35.916815",
+      "estimated_hours": 1.0,
+      "energy_level_required": 6,
+      "tags": [
+        "meeting",
+        "preparation"
+      ],
+      "status": "TaskStatus.PENDING",
+      "created_at": "2025-06-15 14:44:35.916815",
+      "completed_at": null,
+      "actual_hours": null
+    },
+    {
+      "id": "task_4",
+      "title": "Weekly project status review",
+      "description": "Review project progress and update stakeholders",
+      "priority": "Priority.MEDIUM",
+      "deadline": null,
+      "estimated_hours": 2.0,
+      "energy_level_required": 7,
+      "tags": [
+        "project",
+        "review"
+      ],
+      "status": "TaskStatus.PENDING",
+      "created_at": "2025-06-15 14:44:35.916815",
+      "completed_at": null,
+      "actual_hours": null
+    },
+    {
+      "id": "task_5",
+      "title": "Client meeting preparation",
+      "description": "Prepare materials and agenda for client presentation",
+      "priority": "Priority.HIGH",
+      "deadline": null,
+      "estimated_hours": 1.5,
+      "energy_level_required": 8,
+      "tags": [
+        "meeting",
+        "preparation",
+        "client"
+      ],
+      "status": "TaskStatus.PENDING",
+      "created_at": "2025-06-15 14:44:35.916815",
+      "completed_at": null,
+      "actual_hours": null
+    }
+  ],
+  "task_agent": {
+    "user_patterns": {},
+    "task_completion_history": []
+  },
+  "focus_agent": {
+    "productivity_history": [
+      "ProductivitySession(start_time=datetime.datetime(2025, 6, 15, 12, 44, 35, 916815), end_time=datetime.datetime(2025, 6, 15, 13, 44, 35, 916815), tasks_completed=['task_2'], focus_score=8, energy_level=7, distractions_count=2, tools_used=['email', 'calendar'])"
+    ],
+    "focus_patterns": {
+      "12": [
+        8
+      ]
+    },
+    "distraction_triggers": {}
+  },
+  "resource_agent": {
+    "skill_interests": {},
+    "tool_effectiveness": {},
+    "resource_database": {
+      "productivity": [
+        {
+          "name": "Notion",
+          "type": "tool",
+          "description": "All-in-one workspace"
+        },
+        {
+          "name": "Todoist",
+          "type": "tool",
+          "description": "Task management"
+        },
+        {
+          "name": "Getting Things Done",
+          "type": "book",
+          "description": "Productivity methodology"
+        }
+      ],
+      "time_management": [
+        {
+          "name": "RescueTime",
+          "type": "tool",
+          "description": "Time tracking"
+        },
+        {
+          "name": "Forest",
+          "type": "app",
+          "description": "Focus timer with gamification"
+        },
+        {
+          "name": "Pomodoro Timer",
+          "type": "technique",
+          "description": "25-minute focused work sessions"
+        }
+      ],
+      "automation": [
+        {
+          "name": "Zapier",
+          "type": "tool",
+          "description": "Workflow automation"
+        },
+        {
+          "name": "IFTTT",
+          "type": "tool",
+          "description": "Simple automation"
+        },
+        {
+          "name": "Python scripts",
+          "type": "skill",
+          "description": "Custom automation solutions"
+        }
+      ],
+      "learning": [
+        {
+          "name": "Coursera",
+          "type": "platform",
+          "description": "Online courses"
+        },
+        {
+          "name": "YouTube",
+          "type": "platform",
+          "description": "Free tutorials"
+        },
+        {
+          "name": "Stack Overflow",
+          "type": "community",
+          "description": "Programming Q&A"
+        }
+      ],
+      "writing": [
+        {
+          "name": "Grammarly",
+          "type": "tool",
+          "description": "Writing assistant"
+        },
+        {
+          "name": "Hemingway Editor",
+          "type": "tool",
+          "description": "Writing clarity tool"
+        },
+        {
+          "name": "Notion",
+          "type": "tool",
+          "description": "Document creation and organization"
+        }
+      ],
+      "project": [
+        {
+          "name": "Trello",
+          "type": "tool",
+          "description": "Project management boards"
+        },
+        {
+          "name": "Asana",
+          "type": "tool",
+          "description": "Team project management"
+        },
+        {
+          "name": "Monday.com",
+          "type": "tool",
+          "description": "Work management platform"
+        }
+      ],
+      "deadline": [
+        {
+          "name": "Calendar blocking",
+          "type": "technique",
+          "description": "Block time for important deadlines"
+        },
+        {
+          "name": "Todoist",
+          "type": "tool",
+          "description": "Deadline tracking and reminders"
+        },
+        {
+          "name": "TimeTree",
+          "type": "app",
+          "description": "Shared calendar for deadlines"
+        }
+      ],
+      "email": [
+        {
+          "name": "Boomerang",
+          "type": "tool",
+          "description": "Email scheduling and reminders"
+        },
+        {
+          "name": "Mixmax",
+          "type": "tool",
+          "description": "Email productivity suite"
+        },
+        {
+          "name": "Gmail filters",
+          "type": "technique",
+          "description": "Automatic email organization"
+        }
+      ],
+      "communication": [
+        {
+          "name": "Slack",
+          "type": "tool",
+          "description": "Team communication"
+        },
+        {
+          "name": "Microsoft Teams",
+          "type": "tool",
+          "description": "Video conferencing and chat"
+        },
+        {
+          "name": "Loom",
+          "type": "tool",
+          "description": "Video messaging"
+        }
+      ],
+      "meeting": [
+        {
+          "name": "Calendly",
+          "type": "tool",
+          "description": "Meeting scheduling"
+        },
+        {
+          "name": "Zoom",
+          "type": "tool",
+          "description": "Video conferencing"
+        },
+        {
+          "name": "Otter.ai",
+          "type": "tool",
+          "description": "Meeting transcription"
+        }
+      ],
+      "preparation": [
+        {
+          "name": "MindMeister",
+          "type": "tool",
+          "description": "Mind mapping for preparation"
+        },
+        {
+          "name": "Miro",
+          "type": "tool",
+          "description": "Collaborative whiteboard"
+        },
+        {
+          "name": "OneNote",
+          "type": "tool",
+          "description": "Note organization"
+        }
+      ]
+    }
+  },
+  "automation_agent": {
+    "task_patterns": {
+      "project_tasks": [
+        "Task(id='task_1', title='Complete project proposal', description='Write and review the Q2 project proposal', priority=<Priority.HIGH: 3>, deadline=datetime.datetime(2025, 6, 17, 14, 44, 35, 916815), estimated_hours=4.0, energy_level_required=8, tags=['writing', 'project', 'deadline'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)"
+      ],
+      "email_tasks": [
+        "Task(id='task_2', title='Review email inbox', description='Go through and respond to emails', priority=<Priority.MEDIUM: 2>, deadline=None, estimated_hours=0.5, energy_level_required=3, tags=['email', 'communication'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)"
+      ],
+      "meeting_tasks": [
+        "Task(id='task_3', title='Team meeting preparation', description='Prepare agenda and materials for team meeting', priority=<Priority.MEDIUM: 2>, deadline=datetime.datetime(2025, 6, 16, 14, 44, 35, 916815), estimated_hours=1.0, energy_level_required=6, tags=['meeting', 'preparation'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)",
+        "Task(id='task_5', title='Client meeting preparation', description='Prepare materials and agenda for client presentation', priority=<Priority.HIGH: 3>, deadline=None, estimated_hours=1.5, energy_level_required=8, tags=['meeting', 'preparation', 'client'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)"
+      ],
+      "review_tasks": [
+        "Task(id='task_4', title='Weekly project status review', description='Review project progress and update stakeholders', priority=<Priority.MEDIUM: 2>, deadline=None, estimated_hours=2.0, energy_level_required=7, tags=['project', 'review'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)"
+      ]
+    },
+    "repetitive_tasks": [
+      {
+        "pattern": "meeting_tasks",
+        "frequency": 2,
+        "tasks": [
+          "Task(id='task_3', title='Team meeting preparation', description='Prepare agenda and materials for team meeting', priority=<Priority.MEDIUM: 2>, deadline=datetime.datetime(2025, 6, 16, 14, 44, 35, 916815), estimated_hours=1.0, energy_level_required=6, tags=['meeting', 'preparation'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)",
+          "Task(id='task_5', title='Client meeting preparation', description='Prepare materials and agenda for client presentation', priority=<Priority.HIGH: 3>, deadline=None, estimated_hours=1.5, energy_level_required=8, tags=['meeting', 'preparation', 'client'], status=<TaskStatus.PENDING: 'pending'>, created_at=datetime.datetime(2025, 6, 15, 14, 44, 35, 916815), completed_at=None, actual_hours=None)"
+        ]
+      }
+    ],
+    "automation_suggestions": []
+  },
+  "current_energy": 7
+}
